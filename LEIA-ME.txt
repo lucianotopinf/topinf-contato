@@ -1,0 +1,30 @@
+TOP INFORMÁTICA — página de contato
+
+Arquivos:
+- index.html: página principal, com cabeçalho horizontal preenchido pela textura azul da arte original, ocupando toda a largura e com altura reduzida; corpo claro para o formulário.
+- assets/logo-top-informatica.png: exportação PNG da arte PSD fornecida.
+- assets/cabecalho-top-informatica.jpg: recorte horizontal da arte original para preencher o cabeçalho de ponta a ponta, com altura reduzida.
+
+Antes de publicar:
+1. Confirme que o endereço de recebimento do formulário (luciano@topinf.com.br) está correto.
+2. No primeiro envio do formulário, o FormSubmit enviará uma mensagem de ativação para esse e-mail. Confirme a ativação para começar a receber os pedidos.
+3. No index.html, procure por WHATSAPP_NUMBER e substitua a string vazia pelo número da loja com código do país e DDD, somente números (ex.: 5551999999999). Não publique sem configurar esse número se quiser que o botão abra o WhatsApp.
+4. O formulário usa FormSubmit como serviço externo. O envio depende da ativação e da disponibilidade desse serviço.
+5. Após o envio, o visitante verá a confirmação padrão do FormSubmit.
+
+Publicação no GitHub:
+- Envie index.html e a pasta assets para a raiz do repositório topinf-contato.
+- Em Settings > Pages, configure Deploy from a branch, branch principal (main) e pasta /(root).
+- Depois que o GitHub Pages publicar, associe o domínio em Custom domain e faça somente os registros DNS solicitados pelo GitHub, preservando todos os registros de e-mail da Umbler.
+
+Ajuste visual mais recente: o fundo texturizado ocupa toda a largura; a logomarca fica centralizada em camada separada, com tamanho limitado e sem cortes, adaptando-se a telas menores.
+
+Ajuste visual solicitado: área geral atrás do formulário agora usa tons de azul escuro; título e texto introdutórios em branco; cartões do formulário e contato mais compactos, com campos menores e menos espaçamento.
+\nAjuste do contato: o botão de WhatsApp agora aparece somente como ícone verde circular, sem o texto 'Configurar WhatsApp da loja'. Para funcionar, preencher WHATSAPP_NUMBER no index.html com o número da empresa (DDI + DDD + número, apenas dígitos). Enquanto o número estiver vazio, o ícone fica visualmente presente, mas sem ação.\n
+
+AJUSTES DE 17/11/2026:
+- Ícone do WhatsApp sem oval, fundo ou sombra.
+- Removida a mensagem abaixo do WhatsApp.
+- Link de e-mail substituído por ícone de envelope.
+- Logo preparada em resolução 2x e ligeiramente reduzida para melhor apresentação.
+\n\nAJUSTE ADICIONAL:\n- Ícones de e-mail e WhatsApp centralizados juntos na parte inferior da caixa de contato.\n
